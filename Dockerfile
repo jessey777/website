@@ -1,2 +1,3 @@
 FROM hshar/webapp
-ADD . var/www/html
+RUN mkdir -p var/www/html/image
+ADD . var/www/html/image
